@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-900 text-white font-sans">
+
+  <!-- Header -->
+  <header class="p-6 flex justify-between items-center bg-gray-800 shadow">
+    <h1 class="text-2xl font-bold">Piyush Patil</h1>
+    <nav>
+      <a href="#about" class="mx-3 hover:text-yellow-400">About</a>
+      <a href="#projects" class="mx-3 hover:text-yellow-400">Projects</a>
+      <a href="#contact" class="mx-3 hover:text-yellow-400">Contact</a>
+    </nav>
+  </header>
+
+<!-- Hero Section -->
+<section class="h-screen flex flex-col justify-center items-center text-center px-4">
+    <h2 class="text-4xl sm:text-6xl font-extrabold mb-4">Hi, I'm Piyush Patil</h2>
+    <p class="text-xl sm:text-2xl text-gray-400 max-w-xl">A passionate DevOps Engineer | AWS Enthusiast</p>
+    <a href="#projects" class="mt-6 px-6 py-3 bg-yellow-500 hover:bg-yellow-600 text-black rounded-full font-semibold">See My Work</a>
+  </section>
+
+ <!-- About Section -->
+<section id="about" class="py-20 px-6 bg-gray-800 text-center">
+    <h3 class="text-3xl font-bold mb-6">About Me</h3>
+    <p class="max-w-3xl mx-auto text-gray-300">
+      B.Tech graduate in Information Technology with an 8.67 CGPA, currently working at Tata Elxsi as a DevOps Engineer.
+      Skilled in AWS, AWS Lambda, Jenkins, Docker, JFrog, GitHub, and CI/CD pipeline.
+      Seeking opportunities to enhance my knowledge and contribute to impactful projects in the DevOps and cloud domain.
+    </p>
+  </section>
+  
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-20 px-6">
+    <h3 class="text-3xl font-bold text-center mb-12">Projects</h3>
+    <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+      <!-- Project Card -->
+      <div class="bg-gray-800 p-6 rounded-xl shadow-lg hover:shadow-yellow-500/30 transition">
+        <h4 class="text-xl font-semibold mb-2">Project 1</h4>
+        <p class="text-gray-400 mb-4">Short description of your project.</p>
+        <a href="#" class="text-yellow-400 hover:underline">View Demo →</a>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-xl shadow-lg hover:shadow-yellow-500/30 transition">
+        <h4 class="text-xl font-semibold mb-2">Project 2</h4>
+        <p class="text-gray-400 mb-4">Another cool project you worked on.</p>
+        <a href="#" class="text-yellow-400 hover:underline">View Demo →</a>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-xl shadow-lg hover:shadow-yellow-500/30 transition">
+        <h4 class="text-xl font-semibold mb-2">Project 3</h4>
+        <p class="text-gray-400 mb-4">Impressive project for a client or yourself.</p>
+        <a href="#" class="text-yellow-400 hover:underline">View Demo →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 px-6 bg-gray-800 text-center">
+    <h3 class="text-3xl font-bold mb-6">Contact Me</h3>
+    <form class="max-w-xl mx-auto text-left space-y-4">
+      <input type="text" placeholder="Your Name" class="w-full p-3 rounded bg-gray-700 border border-gray-600 focus:outline-none" required />
+      <input type="email" placeholder="Your Email" class="w-full p-3 rounded bg-gray-700 border border-gray-600 focus:outline-none" required />
+      <textarea rows="4" placeholder="Your Message" class="w-full p-3 rounded bg-gray-700 border border-gray-600 focus:outline-none" required></textarea>
+      <button type="submit" class="bg-yellow-500 hover:bg-yellow-600 text-black px-6 py-3 rounded font-semibold">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-6 text-center text-gray-500 text-sm bg-gray-900">
+    © 2025 Your Name. All rights reserved.
+  </footer>
+
+</body>
+</html>
